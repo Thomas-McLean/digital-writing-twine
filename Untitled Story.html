@@ -39,7 +39,27 @@ tw-link:focus, tw-link:hover, tw-link:active, tw-link.visited:hover {
   text-decoration: none;
 }
 tw-passage {
-  padding-bottom: 200px;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Init" tags="" position="500,175" size="100,100">We can create little branches by using [[double square brackets]] for each one. [[Don&#39;t click this one.]]</tw-passagedata><tw-passagedata pid="2" name="double square brackets" tags="" position="500,300" size="100,100">Yes, that&#39;s right, [[double square brackets]]. What, you didn&#39;t hear me the first time?</tw-passagedata><tw-passagedata pid="3" name="Don&#39;t click this one." tags="" position="625,300" size="100,100">You passed the test! Weirdo, Why&#39;d you click it?
+  padding-bottom: 200px;}
+
+.story-room {
+  display: grid;  /* sets the display to grid on the surrounding div */
+  grid-template-columns: 50% 50%;  /* sets each column to 50% */
+}
+.story-text {
+  grid-column: 1;  /* sets which column the text appears in */
+  grid-row: 1;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.story-image {
+  grid-column: 2;  /* sets which column the image appears in */
+  grid-row: 1;
+}
+.story-image img {
+max-width: 100%;
+height: auto;
+display: block;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Init" tags="" position="500,175" size="100,100">We can create little branches by using [[double square brackets]] for each one. [[Don&#39;t click this one.]]</tw-passagedata><tw-passagedata pid="2" name="double square brackets" tags="" position="500,300" size="100,100">Yes, that&#39;s right, [[double square brackets]]. What, you didn&#39;t hear me the first time?</tw-passagedata><tw-passagedata pid="3" name="Don&#39;t click this one." tags="" position="625,300" size="100,100">You passed the test! Weirdo, Why&#39;d you click it?
 
 [[I was bored]]
 [[That&#39;s how you access the rest of the story, moron]]</tw-passagedata><tw-passagedata pid="4" name="I was bored" tags="" position="625,425" size="100,100">I dream of cats (click-replace: &quot;cats&quot;) [horses]
