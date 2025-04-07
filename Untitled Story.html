@@ -59,10 +59,18 @@ tw-passage {
 max-width: 100%;
 height: auto;
 display: block;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Init" tags="" position="500,175" size="100,100">We can create little branches by using [[double square brackets]] for each one. [[Don&#39;t click this one.]]</tw-passagedata><tw-passagedata pid="2" name="double square brackets" tags="" position="500,300" size="100,100">Yes, that&#39;s right, [[double square brackets]]. What, you didn&#39;t hear me the first time?</tw-passagedata><tw-passagedata pid="3" name="Don&#39;t click this one." tags="" position="625,300" size="100,100">You passed the test! Weirdo, Why&#39;d you click it?
+}
+
+tw-story[tags~="example-background"] {  /* the tag added in step 2 */
+  background-image: url(./images/green.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Init" tags="" position="500,175" size="100,100">We can create little branches by using [[double square brackets]] for each one. [[Don&#39;t click this one.]]</tw-passagedata><tw-passagedata pid="2" name="double square brackets" tags="" position="500,300" size="100,100">Yes, that&#39;s right, [[double square brackets]]. What, you didn&#39;t hear me the first time?</tw-passagedata><tw-passagedata pid="3" name="Don&#39;t click this one." tags="example-background" position="625,300" size="100,100">You passed the test! Weirdo, Why&#39;d you click it?
 
 [[I was bored]]
-[[That&#39;s how you access the rest of the story, moron]]</tw-passagedata><tw-passagedata pid="4" name="I was bored" tags="" position="625,425" size="100,100">I dream of cats (click-replace: &quot;cats&quot;) [horses]
+[[That&#39;s how you access the rest of the story, moron]]
+
+</tw-passagedata><tw-passagedata pid="4" name="I was bored" tags="" position="625,425" size="100,100">I dream of cats (click-replace: &quot;cats&quot;) [horses]
 I dream of cats (click-append: &quot;cats&quot;) [ and horses]
 </tw-passagedata><tw-passagedata pid="5" name="That&#39;s how you access the rest of the story, moron" tags="" position="750,425" size="100,100">(t8n-delay: 5s) + (t8n: &quot;fade-down&quot;) [Yeah, I guess it is. Why do you care?]
 
